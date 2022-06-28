@@ -1,0 +1,711 @@
+/* INICIO INDEX */
+.mediosdecontactonav{
+    height: 160px;
+    border: solid 5px black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 27px;
+    background-color: rgb(220, 160, 160);
+}
+
+.nombredobleshoes{
+    color: dodgerblue;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 7%;
+    font-size: 30px;
+    position: absolute;
+    left: 700px;
+    top: 200px;
+    transition: all 0.5s;
+}
+.nombredobleshoes:hover{
+    color:green; font-size:30px;
+}
+
+.linkheader--{
+    transition: all 1.5s;
+}
+
+.linkheader--1:hover{
+    background-color: aquamarine;
+    color:rgb(7, 37, 232); font-size:40px;
+}
+.linkheader--2:hover{
+    background-color: aquamarine;
+    color:rgb(7, 37, 232); font-size:40px;
+}
+.linkheader--3:hover{
+    background-color: aquamarine;
+    color:rgb(7, 37, 232); font-size:40px;
+}
+.linkheader--4:hover{
+    background-color: aquamarine;
+    color:rgb(7, 37, 232); font-size:40px;
+}
+.mediosdepagoheader:hover{
+    background-color: aquamarine;
+}
+.mediosdecontacto-01:hover{
+    background-color: aquamarine;
+}
+
+.direccion{
+    color: dodgerblue;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.maps{
+    text-align: center;
+    padding-bottom: 10%;
+    position: absolute;
+    left: 600px;
+    top: 500px;
+}
+
+.imagennike{
+   position: absolute;
+   left: 1200px;
+   top: 1450px;
+   font-size: 400px;
+   overflow:hidden;
+}
+
+.imagenrave{
+    position: absolute;
+  top: 1450px;
+  left: 250px;
+  overflow:hidden;
+}
+
+.imagenverano{
+    position: absolute;
+    top: 2200px;
+    left: 1200px;
+    overflow:hidden;
+}
+
+.imagenbuzos{
+    position: absolute;
+    top: 2200px;
+    left: 250px;
+    font-size: 400px;
+    overflow:hidden;
+}
+
+.nikelink{
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    left: 1300px;
+    top: 1350px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: dodgerblue;
+}
+
+
+.ravelink{
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    top: 1350px;
+    left: 500px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: dodgerblue;
+}
+
+.veranolink{
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    left: 1200px;
+    top: 2090px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: dodgerblue;
+}
+
+.buzoslink{
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    top: 2100px;
+    left: 450px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.footerpago{
+    position: absolute;
+    top:3000px ;
+    left: 30px;
+    font-size: 30px;
+    color: dodgerblue;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.clickmedios{
+    font-size: 25px;
+    color: dodgerblue;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    top: 3070px;
+    left: 30px;
+}
+
+.domicilio{
+    color: dodgerblue;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    top: 3170px;
+
+}
+
+.footercontacto{
+    color: black;
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    left: 1600px;
+    bottom: 200px;
+}
+
+.linkcomunicacion{
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+
+}
+.article{
+    justify-content: center;
+}
+
+.instagram{
+    position: absolute;
+    left: 1750px;
+    top: 3400px;
+    border: solid 2px black;
+}
+.facebook{
+    position: absolute;
+    left: 1750px;
+    top: 3200px;
+    border: solid 2px black;
+}
+
+.whatsapp{
+    position: absolute;
+    left: 1750px;
+    top: 3300px;
+    border: solid 2px black;
+}
+
+.graciasfooter{
+    color: dodgerblue;
+    position: absolute;
+    top: 3340px;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    left: 700px;
+    overflow:hidden;
+}
+
+.graciasfooter:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3)
+}
+
+.botonarriba{
+    position: absolute;
+    top: 3500px;
+}
+
+.h2productos{
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    top: 800px;
+    color: brown;
+}
+
+.linksheader{
+    text-align: center;
+}
+
+.logoheaderdoble{
+    color: rgba(189, 179, 179, 0.496);
+    position: relative;
+    top: 100px;
+}
+
+.logoheaderdoble:hover{
+    filter: opacity(.5);
+}
+.idmedios{
+    position: absolute;
+    top: 3500px;
+}
+.imagenrave:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3)
+}
+.imagennike:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3)
+}
+.imagenbuzos:hover {
+    -webkit-transform:scale(1.3);transform:scale(1.3)  
+}
+.imagenverano:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3)
+}
+   /* FIN INDEX */
+
+
+
+   /* INICIO PAGE MEDIOS DE PAGO */
+
+.links-medios{
+    border: solid 10px black;
+    height: 170px;
+    width: auto;
+    background-color:thistle;
+    text-align:center;
+    font-size: 20px;
+    font-family: monospace;
+}
+.mediosdepagonav{
+    height: 160px;
+}
+
+.links-medios-1{
+    position: relative;
+    top: 10px;
+}
+.links-medios-2{
+    position: relative;
+    top: 15px;
+}
+.links-medios-3{
+    position: relative;
+    top: 20px;
+}
+.links-medios-4{
+    position: relative;
+    top: 25px;
+}
+.links-medios-5{
+    position: relative;
+    top: 30px;
+}
+
+.bodymediosdepago{
+    background-color: rgb(197, 209, 215);
+}
+.listaolmedios{
+    color: brown;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logomedios{
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.h1medios{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    color: brown;
+    text-align: lef
+}
+
+.footermedios{
+    color: brown;
+    text-align: center;
+}
+
+/* FIN DE PAGE MEDIOS DE PAGO */
+
+/* SECCION buzos */
+.bodybuzos{
+    background-color: thistle;
+}
+.headerbuzos{
+    border: solid 5px black;
+    position: relative;
+    height: 150px;
+    width: auto;
+    background-color: antiquewhite;
+}
+.linkbuzos-1{
+    overflow:hidden;
+}
+.linkbuzos-1:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3)
+}
+.linkbuzos-2{
+    overflow:hidden;
+}
+.linkbuzos-2:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3)
+}
+.linkbuzos-3{
+    overflow:hidden;
+}
+.linkbuzos-3:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3)
+}
+.linkbuzos-4{
+    overflow:hidden;
+}
+.linkbuzos-4:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3)
+}
+.linkbuzos-5{
+    overflow:hidden;
+}
+.linkbuzos-5:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3)
+}
+
+
+.navbuzos1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.titlebuzos{
+    font-size: 40px;
+    text-align: center;
+    color: brown;
+}
+
+.grid-container-2{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    overflow:hidden;
+}
+.grid-container-2{
+    filter:contrast(130%);
+}    
+.footer-doble{
+    color: rgb(37, 19, 6) ;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    text-align: left;
+    top: 40px;
+    transition: all 0.5s;
+}
+.footer-doble:hover{
+    color: violet; font-size: 50px;
+}
+/* FIN DE BUZOS */
+
+/* SECCION NIKE */
+
+.bodynike{
+    background-color: rgba(0, 0, 0, 0.179);
+}
+.headernike{
+    border: solid 10px black;
+    background-color: rgb(190, 152, 225);
+    height: 170px;
+}
+.navnike{
+    font-size: 20px;
+    text-align: center;  
+    position: relative;
+}
+
+.linknike-1{
+    position: relative;
+    top: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+.linknike-2{
+    position: relative;
+    top: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+
+.linknike-3{
+   position: relative;
+   top: 10px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 20px;
+   transition: all 0.3s; 
+}
+
+.linknike-4{
+    position: relative;
+    top: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+.linknike-5{
+    position: relative;
+    top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+
+.linknike-1:hover {color:rgb(236, 49, 7); font-size:30px;}
+.linknike-2:hover {color:rgb(44, 27, 171); font-size:30px;}
+.linknike-3:hover {color:rgb(221, 36, 206); font-size:30px;}
+.linknike-4:hover {color:rgb(196, 167, 25); font-size:30px;}
+.linknike-5:hover {color:rgb(233, 141, 20); font-size:30px;}
+
+.h2nike{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(68, 82, 83);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.zapatillasnike{
+    text-align: center;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: chocolate;
+}
+.zapatillasnike:hover{
+    filter: saturate(180%);
+}
+.nikefooter{
+    display: flex;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: tomato;
+    transition: all 0.5s;
+}
+.nikefooter:hover{
+    color:red; font-size:30px;
+}
+/* fin de nike */
+
+
+/* inicio de rave */
+.bodyrave{
+    background-color: rgb(255, 212, 243);
+}
+.headerrave{
+    background-color: rgb(46, 134, 105);
+    position: relative;
+    height: 175px;
+    border: solid 10px black;
+}
+.navrave{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 20px;
+   
+}
+
+.linkrave-1{
+    position: relative;
+    top: 0px;
+}
+.linkrave-2{
+    position: relative;
+    top: 5px;
+}
+.linkrave-3{
+    position: relative;
+    top: 10px;
+}
+.linkrave-4{
+    position: relative;
+    top: 15px;
+}
+.linkrave-5{
+    position: relative;
+    top: 20px;
+}
+.titulocalzadorave{
+    text-align: center;
+    position: relative;
+    font-family: fantasy;
+    color:crimson ;
+    font-size: 35px;
+    transition: all 0.5s;
+}
+.titulocalzadorave:hover{
+    color:rgb(33, 110, 108); font-size:40px;
+}
+.textoyimagenesrav{
+    text-align: center;
+    color: crimson ;
+    font-size: 20px;
+    font-family: fantasy;
+}
+.finrav{
+    font-size: 30px;
+    color: crimson;
+    font-family: fantasy;
+    transition: all 0.5s;
+}
+.finrav:hover{
+    color: brown; font-size: 40px;
+}
+
+.textoyimagenesrav:hover{
+    filter: saturate(180%);
+}
+.linkrave-:hover{
+    color: aquamarine;
+}
+/* fin de seccion de rav */
+
+/* Inicio seccion de verano */
+.bodyverano{
+    background-color: rgb(107, 120, 18);
+}
+
+.headerverano{
+    border: solid 10px black;
+    height: 175px;
+    background-color: burlywood;
+    text-align: center;
+}
+.navverano{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+.navverano:hover{
+    color: gray; font-size: 22px;
+}
+.tituloverano{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(211, 164, 255);
+    text-align: center;
+    font-size: 35px;
+}
+.imagenesytitulosverano{
+    text-align: center;
+    position: relative;
+    font-size: 25px;
+    color: rgb(211, 164, 255);
+}
+.imagenesytitulosverano:hover{
+    filter: saturate(180%);
+}
+.footerverano{
+    position: relative;
+    font-size: 25px;
+    color: rgb(211, 164, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: all 0.3s;
+}
+.footerverano:hover{
+    color:rgb(128, 0, 36); font-size:30px;
+}
+/* fin de seccion verano */
+
+/* medios de pagoo */
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 6px;
+    text-align: center;
+    font-family: fantasy;
+    background-color: coral;
+}
+.link{
+    display: grid;
+}
+    
+.link1 { 
+    grid-area: 1 / 1 / 2 / 5; 
+}
+.link2 { 
+    grid-area: 2 / 1 / 3 / 5; 
+}
+.link3 {
+     grid-area: 3 / 1 / 4 / 5; 
+    }
+.link4 { 
+    grid-area: 4 / 1 / 5 / 5;
+ }
+.link5 { 
+    grid-area: 5 / 1 / 6 / 5; 
+} 
+.grid-container-1{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border: solid 3px black;
+    font-family: fantasy;
+    color: brown;
+    background-color: wheat;
+    text-align: center;
+    overflow:hidden;
+}
+.grid-container{
+    overflow:hidden;
+}
+.grid-container:hover{
+    color:-webkit-transform scale(1.3);transform:scale(1.3)
+}
+.grid-container-1:hover{
+    color:-webkit-transform scale(1.3);transform:scale(1.3)
+}
+        
+.medios-{
+    display: grid;
+}    
+
+.medios-1{ 
+        grid-area: 1 / 1 / 2 / 6; 
+    }
+.medios-2{ 
+    grid-area: 2 / 1 / 3 / 6; 
+}
+.medios-3 { 
+    grid-area: 3 / 1 / 4 / 6; 
+}
+.medios-4 { 
+     grid-area: 4 / 1 / 5 / 6; 
+}
+.medios-5 { 
+    grid-area: 5 / 1 / 6 / 6; 
+}
+.medios-6 { 
+    grid-area: 6 / 1 / 7 / 6; 
+}
+
+.h1-mediosdepagoo{
+    background-color: wheat;
+    font-family: fantasy;
+    text-align: center;
+    border: solid black 3px;
+    font-size: 30px;
+}
+
+.imagenes-footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    text-align: center;
+}
+  
+.imagen-logos{
+    display: flex;
+    justify-content: center;
+}
