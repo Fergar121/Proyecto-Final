@@ -338,34 +338,39 @@
     background-color: antiquewhite;
 }
 .linkbuzos-1{
-    overflow:hidden;
+    transition: all 0.5s;
 }
 .linkbuzos-1:hover{
-    -webkit-transform:scale(1.3);transform:scale(1.3)
+    overflow: hidden;
+    font-size: 30px;
 }
 .linkbuzos-2{
-    overflow:hidden;
+    transition: all 0.5s;
 }
 .linkbuzos-2:hover{
-    -webkit-transform:scale(1.3);transform:scale(1.3)
+    overflow: hidden;
+    font-size: 30px;
 }
 .linkbuzos-3{
-    overflow:hidden;
+    transition: all 0.5s;
 }
 .linkbuzos-3:hover{
-    -webkit-transform:scale(1.3);transform:scale(1.3)
+    overflow: hidden;
+    font-size: 30px;
 }
 .linkbuzos-4{
-    overflow:hidden;
+    transition: all 0.5s;
 }
 .linkbuzos-4:hover{
-    -webkit-transform:scale(1.3);transform:scale(1.3)
+    overflow: hidden;
+    font-size: 30px;
 }
 .linkbuzos-5{
-    overflow:hidden;
+    transition: all 0.5s;
 }
 .linkbuzos-5:hover{
-    -webkit-transform:scale(1.3);transform:scale(1.3)
+    overflow: hidden;
+    font-size: 30px;
 }
 
 
@@ -389,7 +394,11 @@
 }
 .grid-container-2{
     filter:contrast(130%);
-}    
+}   
+.grid-item-buzos{
+    font-family: fantasy;
+    color: green;
+}
 .footer-doble{
     color: rgb(37, 19, 6) ;
     font-size: 40px;
@@ -413,6 +422,7 @@
     border: solid 10px black;
     background-color: rgb(190, 152, 225);
     height: 170px;
+    margin: 0px;
 }
 .navnike{
     font-size: 20px;
@@ -424,14 +434,14 @@
     position: relative;
     top: 0px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     transition: all 0.5s;
 }
 .linknike-2{
     position: relative;
     top: 5px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     transition: all 0.3s;
 }
 
@@ -439,23 +449,24 @@
    position: relative;
    top: 10px;
    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-   font-size: 20px;
+   font-size: 18px;
    transition: all 0.3s; 
+   top: 10px;
 }
 
 .linknike-4{
     position: relative;
     top: 15px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     transition: all 0.3s;
 }
 .linknike-5{
     position: relative;
-    top: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     transition: all 0.3s;
+    top: 20px;
 }
 
 .linknike-1:hover {color:rgb(236, 49, 7); font-size:30px;}
@@ -511,25 +522,50 @@
    
 }
 
+.linkrave-1:hover{
+    overflow: hidden;
+    font-size: 30px;
+}
+.linkrave-2:hover{
+    overflow: hidden;
+    font-size: 30px;
+}
+.linkrave-3:hover{
+    overflow: hidden;
+    font-size: 30px;
+}
+.linkrave-4:hover{
+    overflow: hidden;
+    font-size: 30px;
+}
+.linkrave-5:hover{
+    overflow: hidden;
+    font-size: 30px;
+}
 .linkrave-1{
     position: relative;
     top: 0px;
+    transition: all 0.3s;
 }
 .linkrave-2{
     position: relative;
     top: 5px;
+    transition: all 0.3s;
 }
 .linkrave-3{
     position: relative;
     top: 10px;
+    transition: all 0.3s;
 }
 .linkrave-4{
     position: relative;
     top: 15px;
+    transition: all 0.3s;
 }
 .linkrave-5{
     position: relative;
     top: 20px;
+    transition: all 0.3s;
 }
 .titulocalzadorave{
     text-align: center;
@@ -580,7 +616,42 @@
 .navverano{
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
-    transition: all 0.5s;
+    transition: all 0.3s;
+}
+.linkverano-1{
+    transition: all 0.3s;
+}
+.linkverano-1:hover{
+    overflow: hidden;
+    font-size: 30px;
+}
+.linkverano-2{
+    transition: all 0.3s;
+}
+.linkverano-2:hover{
+    overflow: hidden;
+    font-size: 30px;
+}
+.linkverano-3{
+    transition: all 0.3s;
+}
+.linkverano-3:hover{
+    overflow: hidden;
+    font-size: 30px;
+}
+.linkverano-4{
+    transition: all 0.3s;
+}
+.linkverano-4:hover{
+    overflow: hidden;
+    font-size: 30px;
+}
+.linkverano-5{
+    transition: all 0.3s;
+}
+.linkverano-5:hover{
+    overflow: hidden;
+    font-size: 30px;
 }
 .navverano:hover{
     color: gray; font-size: 22px;
@@ -625,23 +696,44 @@
 }
 .link{
     display: grid;
+    transition: all 0.3s;
 }
     
 .link1 { 
     grid-area: 1 / 1 / 2 / 5; 
+    transition: all 0.3s;
 }
 .link2 { 
     grid-area: 2 / 1 / 3 / 5; 
+    transition: all 0.3s;
 }
 .link3 {
      grid-area: 3 / 1 / 4 / 5; 
+     transition: all 0.3s;
     }
 .link4 { 
     grid-area: 4 / 1 / 5 / 5;
+    transition: all 0.3s;
  }
 .link5 { 
     grid-area: 5 / 1 / 6 / 5; 
+    transition: all 0.3s;
 } 
+.link1:hover{
+    overflow: hidden;
+}
+.link2:hover{
+    overflow: hidden;
+}
+.link3:hover{
+    overflow: hidden;
+}
+.link4:hover{
+    overflow: hidden;
+}
+.link5:hover{
+    overflow: hidden;
+}
 .grid-container-1{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
