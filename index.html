@@ -1,75 +1,62 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dobleshoes3l</title>
-</head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
 
-<body class="body">
+<body background="/multimedia/Blue-wood-board-background_1440x900.jpg" class="body">
+    <p id="backtotop"></p>
     <!-- inicio de header -->
     <header class="headerindex">
         <!-- zona nav -->
-        <nav class="header-nav">
-
-            <p id="backtotop"></p>
-
-            <div class="mediosdecontactonav">
-                    <a class="mediosdecontacto-01" href="#mediosdecontacto">Medios de Contacto 📱</a>
-                    <div class="linksheader">
-                        <a class="linkheader--1" href="./buzos.html">Buzos</a>
-                        <a class="linkheader--2" href="./catalogonike.html">Nike</a>
-                        <a class="linkheader--3" href="./catalogorave.html">Rave</a>
-                        <a class="linkheader--4" href="./catalogoverano.html">Verano</a></div>
-                        <a class="mediosdepagoheader" href="./mediosdepagoo.html">Medios de Pago 🤑💵</a>
-                    </div>    
-
-            <img class="logoheaderdoble" src="./multimedia/logo/logodobleshoes1.jpg" alt="">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./mediosdepagoo.html">Medios de pago</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./catalogonike.html">Nike</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./catalogorave.html">RAVE</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./catalogoverano.html">Summer</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./buzos.html">Buzos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        
+          <!-- fin de zona nav -->  
+          <img class="logoheaderdoble" src="./multimedia/logo/logodobleshoes1.jpg" alt="">
                     
-            <h1 class="nombredobleshoes">DOBLE SHOES, Tres Lomas👟</h1>
+                <h1 class="nombredobleshoes">DOBLE SHOES, Tres Lomas👟</h1>
 
-            <h3 class="direccion">Urquiza 913</h3>
-
-            <div class="maps"><iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d696.0801063985093!2d-62.850207280123485!3d-36.456432346898055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c21fd01666695b%3A0x68600d89f384249a!2sDobleshoes3l!5e1!3m2!1ses!2sar!4v1653415036975!5m2!1ses!2sar"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-
-        </nav>
-        <!-- fin de zona nav -->
+                <h3 class="direccion">Urquiza 913</h3>   
     </header>
     <!--fin de header-->
-
-
-    <!--sections-->
-    <section class="sectionsindex">
-        <article class="articleindex">
-
-            <h2 class="h2productos">Mira nuestros productos aqui abajo :) 👇</h2>
-                
-                      
-                        <div class="nikelink"> <a target="_blank" href="./catalogonike.html">NIKE 🔥</a></div>
-                        <div class="imagennike"> <img src="./multimedia/logo/nike reducido.jpg" alt=""> </div>
-
-                        <div class="ravelink"><a target="_blank" href="./catalogorave.html"> RAVE 🔥 </a></div>
-                        <div class="imagenrave"> <img src="./multimedia/logo/reve reducido.png" alt=""> </div>
-
-                        <div class="veranolink"><a target="_blank" href="./catalogoverano.html"> Productos de verano 🔥</a></div>
-                        <div class="imagenverano"><img src="./multimedia/logo/veranologo reducido.jpg" alt=""></div>
-
-                        <div class="buzoslink"><a target="_blank" href="./buzos.html"> Buzos 🔥</a> </div>
-                        <div class="imagenbuzos"><img src="./multimedia/imagenes/buzos/buzzos reducido.jpg" alt=""></div>
-                            
-
-        </article>
-        <!-- fin de article -->
-    </section>
-    <!--fin de sections-->
-
-    <!--inicio de footer-->
+       
+    
+        <section>
+            <div class="grid-container-3">
+                <div class="grid-item--1"><a href="/catalogonike.html"> <img src="/multimedia/logo/nike reducido.jpg" alt=""> </a></div>
+                <div class="grid-item--2"><a href="/catalogorave.html" ><img src="/multimedia/logo/reve reducido.png" alt=""></a> </div>
+                <div class="grid-item--3"><a href="/catalogoverano.html"><img src="/multimedia/logo/veranologo reducido.jpg" alt=""></a> </div>
+                <div class="grid-item--4"><a href="/buzos.html"><img src="/multimedia/imagenes/buzos/buzzos reducido.jpg" alt=""></a></div>
+                </div>
+        </section>
+       
     <footer class="footerindex">
         <h2 class="footerpago">Para ver nuestros medios de pago hace</h2>
         <div class="clickmedios"><a target="_blank" href="./mediosdepagoo.html">click aqui✌️</a></div>
@@ -88,10 +75,7 @@
                 src="./iconosredes/WhatsApp Image 2022-06-06 at 9.36.28 PM.jpeg" alt=""></div>
 
             <h3 class="graciasfooter">MUCHAS GRACIAS, Dobleshoes3l❤️</h3>
-
             <div class="botonarriba"><a href="#backtotop">Volver Arriba</a></div>
-
-
             <p class="idmedios" id="mediosdecontacto"></p>
     </footer>
     <!--Fin de Footer-->

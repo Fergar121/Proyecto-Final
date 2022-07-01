@@ -6,11 +6,10 @@
     font-size: 27px;
     background-color: rgb(220, 160, 160);
 }
-
 .nombredobleshoes{
-    color: dodgerblue;
+    color: rgb(0, 0, 0);
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: fantasy;
     padding-top: 7%;
     font-size: 30px;
     position: absolute;
@@ -21,7 +20,9 @@
 .nombredobleshoes:hover{
     color:green; font-size:30px;
 }
-
+.nav-bar{
+    background-color: lightblue;
+}
 .linkheader--{
     transition: all 1.5s;
 }
@@ -50,9 +51,9 @@
 }
 
 .direccion{
-    color: dodgerblue;
+    color: rgb(0, 0, 0);
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: fantasy;
     font-size: 20px;
 }
 
@@ -63,99 +64,27 @@
     left: 600px;
     top: 500px;
 }
-
-.imagennike{
-   position: absolute;
-   left: 1200px;
-   top: 1450px;
-   font-size: 400px;
-   overflow:hidden;
-}
-
-.imagenrave{
-    position: absolute;
-  top: 1450px;
-  left: 250px;
-  overflow:hidden;
-}
-
-.imagenverano{
-    position: absolute;
-    top: 2200px;
-    left: 1200px;
-    overflow:hidden;
-}
-
-.imagenbuzos{
-    position: absolute;
-    top: 2200px;
-    left: 250px;
-    font-size: 400px;
-    overflow:hidden;
-}
-
-.nikelink{
-    position: absolute;
-    text-align: center;
-    font-size: 30px;
-    left: 1300px;
-    top: 1350px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: dodgerblue;
-}
-
-
-.ravelink{
-    position: absolute;
-    text-align: center;
-    font-size: 30px;
-    top: 1350px;
-    left: 500px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: dodgerblue;
-}
-
-.veranolink{
-    position: absolute;
-    text-align: center;
-    font-size: 30px;
-    left: 1200px;
-    top: 2090px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: dodgerblue;
-}
-
-.buzoslink{
-    position: absolute;
-    text-align: center;
-    font-size: 30px;
-    top: 2100px;
-    left: 450px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-
-
 .footerpago{
     position: absolute;
     top:3000px ;
     left: 30px;
     font-size: 30px;
-    color: dodgerblue;
+    color: rgb(0, 0, 0);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .clickmedios{
     font-size: 25px;
-    color: dodgerblue;
+    color: rgb(0, 0, 0);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     position: absolute;
     top: 3070px;
     left: 30px;
+    text-decoration: none;
 }
 
 .domicilio{
-    color: dodgerblue;
+    color: rgb(0, 0, 0);
     font-size: 20px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     position: absolute;
@@ -187,8 +116,10 @@
     left: 1750px;
     top: 3400px;
     border: solid 2px black;
+    background-color: white;
 }
 .facebook{
+    background-color: white;
     position: absolute;
     left: 1750px;
     top: 3200px;
@@ -200,10 +131,11 @@
     left: 1750px;
     top: 3300px;
     border: solid 2px black;
+    background-color: white;
 }
 
 .graciasfooter{
-    color: dodgerblue;
+    color: rgb(0, 0, 0);
     position: absolute;
     top: 3340px;
     font-size: 20px;
@@ -228,7 +160,10 @@
     top: 800px;
     color: brown;
 }
-
+.footerindex{
+    bottom: 2500px;
+    position: relative;
+}
 .linksheader{
     text-align: center;
 }
@@ -743,7 +678,7 @@
     border: solid 3px black;
     font-family: fantasy;
     color: brown;
-    background-color: wheat;
+    background-color:peru;
     text-align: center;
     overflow:hidden;
 }
@@ -781,11 +716,15 @@
 }
 
 .h1-mediosdepagoo{
-    background-color: wheat;
+    background-color: rgb(255, 255, 255);
     font-family: fantasy;
     text-align: center;
     border: solid black 3px;
     font-size: 30px;
+    overflow: hidden;
+}
+.h1-mediosdepagoo:hover{
+    overflow: hidden;
 }
 
 .imagenes-footer {
@@ -800,4 +739,41 @@
 .imagen-logos{
     display: flex;
     justify-content: center;
+}
+
+.grid-container-3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 13px;
+    grid-row-gap: 4px;
+    position: relative;
+    top: 200px;
+    text-align: center;
+    margin: none;
+}
+  
+.grid-item--1 { 
+    display: grid;
+    grid-area: 1 / 1 / 2 / 2; 
+}
+
+.grid-item--2 { 
+    display: grid;
+    grid-area: 1 / 2 / 2 / 3; 
+}
+
+.grid-item--3 { 
+    display: grid;
+    grid-area: 2 / 1 / 3 / 2; 
+}
+
+.grid-item--4{ 
+    display: grid;
+    grid-area: 2 / 2 / 3 / 3; 
+}
+
+.list-group{
+    font-family: fantasy;
+    color: black;
 }

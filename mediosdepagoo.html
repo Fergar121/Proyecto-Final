@@ -1,41 +1,54 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
     <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
 </head>
-<body>
+<body background="/multimedia/pngtree-dollar-seamless-pattern-vector-green-money-finance-currency-cute-graphic-texture-png-image_1814978.jpg">
      <p id="backtotop"></p>
     <header>
-        <nav>
-            <div class="grid-container">
-                <div class="link1"><a href="./index.html">Volver a Home</a> </div>
-                <div class="link2"><a href="./catalogorave.html">Rave</a> </div>
-                <div class="link3"> <a href="./catalogonike.html">Nike</a> </div>
-                <div class="link4"><a href="./buzos.html">Buzos</a></div>
-                <div class="link5"><a href="./catalogoverano.html">Verano</a> </div>
-                </div>
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">Home</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./catalogonike.html">Nike</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./catalogorave.html">RAVE</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./catalogoverano.html">Summer</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./buzos.html">Buzos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <section>
         <article>
 
             <div class="imagen-logos"><img src="./multimedia/logotipos-de-los-productores-de-las-zapatillas-deportivas-59015235.jpg" alt=""></div>
             <h1 class="h1-mediosdepagoo">Nuestros Medios de Pago son</h1>
-            <div class="grid-container-1">
-                <div class="medios-1">✅Mercado pago. </div>
-                <div class="medios-2">✅Uala. </div>
-                <div class="medios-3">✅Transferencia bancaria. </div>
-                <div class="medios-4">✅Efectivo. </div>
-                <div class="medios-5">✅Cuenta dni.</div>
-                <div class="medios-6">✅Podes consultar con nosotros y arreglar la forma de pago!!!!! </div>
-            </div>
-        </article>
+            <ul class="list-group">
+                <li class="list-group-item">✅Mercado pago.</li>
+                <li class="list-group-item">✅Uala.</li>
+                <li class="list-group-item">✅Cuenta dni</li>
+                <li class="list-group-item">✅Efectivo.</li>
+                <li class="list-group-item">✅Podes consultar con nosotros y arreglar la forma de pago!!!!!</li>
+              </ul>
     </section>
-
     <footer class="footermedios">
         <h2>Pasa por Urquiza 913 y arregla con nosotros, tambien
         podemos darte el pago en cuotas!</h2>
